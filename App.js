@@ -55,7 +55,7 @@ const App = () => {
       <TextInput
         style={styles.input}
         onChangeText={(value) => handleInputChange('input4', value)}
-        value={inputValues.input3}
+        value={inputValues.input4}
         keyboardType='numeric'
       />
 
@@ -63,7 +63,7 @@ const App = () => {
       <TextInput
         style={styles.input}
         onChangeText={(value) => handleInputChange('input5', value)}
-        value={inputValues.input3}
+        value={inputValues.input5}
         keyboardType='numeric'
       />
 
